@@ -13,11 +13,11 @@ The IOS-Bluetooth-Controlled-LED project is designed to help you explore and gra
 7. [Contact](#contact)
 
 ## Main Components
-- **Arduino MKR WiFi 1010**: Microcontroller used to manage the RGB LED and handle Bluetooth communication using ArduinoBLE.
+**Arduino MKR WiFi 1010**: Microcontroller used to manage the RGB LED and handle Bluetooth communication using ArduinoBLE.
   
-- **RGB LED**: An LED capable of displaying different colors based on the signals received from the Arduino.
+**RGB LED**: An LED capable of displaying different colors based on the signals received from the Arduino.
   
-- **iPhone App**: Developed using Swift, this app connects to the Arduino via Bluetooth using CoreBluetooth and sends RGB values to control the LED.
+**iPhone App**: Developed using Swift, this app connects to the Arduino via Bluetooth using CoreBluetooth and sends RGB values to control the LED.
 
 ## Understanding the Bluetooth Control Mechanism
 
