@@ -31,6 +31,7 @@ The IOS-Bluetooth-Controlled-LED project is designed to help you explore and gra
 #### Arduino as a Peripheral Device
 - The Arduino MKR WiFi 1010 is set up as a BLE peripheral device. It advertises a BLE service with characteristics that the iPhone app can interact with.
 - The BLE service has three characteristics corresponding to the red, green, and blue values of the RGB LED.
+- Each characteristic has a unique UUID and can be read from or written to by the iPhone app. This allows the app to send RGB values to the Arduino, which then adjusts the LED color accordingly.
 
 ```cpp
 BLEService arduinoService("af7c1fe6-d669-414e-b066-e9733f0de7a8");
