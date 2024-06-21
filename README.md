@@ -9,7 +9,8 @@ The IOS-Bluetooth-Controlled-LED project is designed to help you explore and gra
 3. [Setup and Usage Guide](#setup-and-usage-guide)
 4. [Conclusion](#conclusion)
 5. [Resources](#resources)
-6. [Contact](#contact)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Main Components
 - **Arduino MKR WiFi 1010**: Microcontroller used to manage the RGB LED and handle Bluetooth communication using ArduinoBLE.
@@ -149,7 +150,9 @@ The IOS-Bluetooth-Controlled-LED project is an excellent starting point for unde
 - **CoreBluetooth Documentation**: [CoreBluetooth](https://developer.apple.com/documentation/corebluetooth)
 - **SwiftUI Documentation**: [SwiftUI](https://developer.apple.com/documentation/swiftui)
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contact
 - **Email**: [adam.ress@icloud.com](mailto:adam.ress@icloud.com)
-- **GitHub**: [Ress1206-bit](https://github.com/Ress1206-bit)
 
