@@ -3,6 +3,8 @@
 ## Overview
 The IOS-Bluetooth-Controlled-LED project is designed to help you explore and grasp the concept of using an iPhone app to control an Arduino. By creating a simple setup where an iPhone app controls an RGB LED, this project serves as an ideal starting point for understanding Bluetooth communication between iOS devices and Arduino. It provides a solid foundation for developing more complex projects and leveraging the integration of hardware and software to create innovative and interactive applications.
 
+---
+
 ## Table of Contents
 1. [Main Components](#main-components)
 2. [Understanding the Bluetooth Control Mechanism](#understanding-the-bluetooth-control-mechanism)
@@ -12,12 +14,16 @@ The IOS-Bluetooth-Controlled-LED project is designed to help you explore and gra
 6. [License](#license)
 7. [Contact](#contact)
 
+---
+
 ## Main Components
 **Arduino MKR WiFi 1010**: Microcontroller used to manage the RGB LED and handle Bluetooth communication using ArduinoBLE.
   
 **RGB LED**: An LED capable of displaying different colors based on the signals received from the Arduino.
   
 **iPhone App**: Developed using Swift, this app connects to the Arduino via Bluetooth using CoreBluetooth and sends RGB values to control the LED.
+
+---
 
 ## Understanding the Bluetooth Control Mechanism
 
@@ -107,8 +113,11 @@ func sendData(_ peripheral: CBPeripheral, r: Data, g: Data, b: Data) {
 }
 ```
 
+
 ### Summary
 By setting up the Arduino as a BLE peripheral and the iPhone as a BLE central, the project allows for wireless control of an RGB LED. The iPhone app communicates with the Arduino by reading and writing to BLE characteristics, enabling dynamic control over the LED colors. This setup provides a foundational framework for developing more advanced projects where an iPhone can control various devices via Bluetooth and an Arduino.
+
+---
 
 ## Setup and Usage Guide
 
@@ -143,16 +152,24 @@ By setting up the Arduino as a BLE peripheral and the iPhone as a BLE central, t
    - Use the iPhone app to control the RGB LED colors.
    - Utilize this project as a foundation to develop your own projects where your iPhone controls an Arduino through Bluetooth, enabling the creation of innovative and interactive applications.
 
+---
+
 ## Conclusion
 The IOS-Bluetooth-Controlled-LED project is an excellent starting point for understanding Bluetooth communication between an iPhone and Arduino. It provides a foundation for more complex projects and helps in learning the integration of hardware and software to create interactive and controllable systems. By building on this project, you can expand your skills to develop custom applications where your iPhone manages an Arduino through Bluetooth, opening up possibilities for creating unique and interactive technological solutions.
+
+---
 
 ## Resources
 - **ArduinoBLE Library**: [ArduinoBLE](https://www.arduino.cc/en/Reference/ArduinoBLE)
 - **CoreBluetooth Documentation**: [CoreBluetooth](https://developer.apple.com/documentation/corebluetooth)
 - **SwiftUI Documentation**: [SwiftUI](https://developer.apple.com/documentation/swiftui)
 
+---
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Contact
 - **Email**: [adam.ress@icloud.com](mailto:adam.ress@icloud.com)
